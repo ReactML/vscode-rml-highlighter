@@ -3,8 +3,13 @@
     "displayName": "vscode-rml-highlighter",
     "description": "Highlight React Markup Language(ReactML).",
     "version": "0.0.1",
+    "publisher": "Rax",
     "engines": {
         "vscode": "^1.43.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ReactML/vscode-rml-highlighter.git"
     },
     "categories": [
         "Programming Languages"
