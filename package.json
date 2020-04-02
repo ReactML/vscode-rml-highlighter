@@ -1,0 +1,25 @@
+{
+    "name": "vscode-rml-highlighter",
+    "displayName": "vscode-rml-highlighter",
+    "description": "Highlight React Markup Language(ReactML).",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rml",
+            "aliases": ["React Markup Language", "rml"],
+            "extensions": [".rml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rml",
+            "scopeName": "source.rml",
+            "path": "./syntaxes/rml.tmLanguage.json"
+        }]
+    }
+}
